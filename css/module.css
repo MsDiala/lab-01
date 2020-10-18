@@ -1,0 +1,12 @@
+/* mobile view */
+#a, #b, #c, #d, #e, #f, #g, #h, #i{
+  background-color: rgba(128, 128, 128, 0.411);
+}
+
+
+/* desktop view */
+@media (min-width: 961px) {
+  #a, #b, #c, #d, #e, #f, #g, #h, #i {
+      background-color: rgba(159, 196, 201, 0.603);
+  }
+  
