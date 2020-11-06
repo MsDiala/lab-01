@@ -16,12 +16,12 @@ section {
   grid-column: span 2;
   
 }
-
-@media (min-width: 768px) {
+ 
+ @media (min-width: 768px) {
   section{
       max-width: 960px;
       max-height: 768px;
-      /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+       grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
       grid-template-rows: 1fr 2fr 2.5fr 1.5fr;
   }
   
@@ -36,5 +36,5 @@ section {
   #i {
       grid-column: span 4;
   }
-}
+} 
   
